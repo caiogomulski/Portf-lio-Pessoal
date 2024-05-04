@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Caio Gomulski</a>
+
+        <nav class="navbar">
+            <a href="https://github.com/caiogomulski"><img class="logo" src="GitHub.png"></a>
+            <a href="https://www.linkedin.com/in/caio-gomulski-33535a291/"><img class="logo" src="linkedin.png"></a>
+            <a href="index.html" class="cr7">Inicio</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="projeto.html">Projetos</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        
+    
+        <div class="container">
+            <form id="contactForm">
+              <h2>Fale Comigo</h2>
+              <div class="input-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="input-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+              </div>
+              <button type="submit" onclick="abriralerta()">Enviar</button>
+            </form>
+            <div id="response"></div>
+          </div>
+          
+          <script src="app.js"></script>
+              
+
+          
+        </div>
+
+    </section>
+    
+
+</body>
+
+</html>
